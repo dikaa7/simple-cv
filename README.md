@@ -1,2 +1,2 @@
-# cv
-this is cv dark mode
+# Ade's Personal Web
+This personal web is make with html and css only
