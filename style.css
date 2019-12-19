@@ -1,4 +1,6 @@
 body{
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+	scrollbar-width: none;  /* Firefox */ 
 	background-image: url("images/background.svg");
 	background-color: #22354F;
 	width: 85%;
@@ -7,6 +9,10 @@ body{
 	color:#8EACC5;
 	line-height: 1.5;
 	letter-spacing: 1.1px;
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
 p{
@@ -80,4 +86,10 @@ input[type=submit]:hover{
 footer{
 	text-align: center;
 	padding-bottom: 30px; 
+}
+
+.git-corner{
+	position: fixed;
+	top: 0;
+	right: 0;
 }
