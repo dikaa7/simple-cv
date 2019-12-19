@@ -1,4 +1,5 @@
 body{
+	background-image: url("images/background.svg");
 	background-color: #1B2431;
 	width: 85%;
 	margin: auto;
@@ -25,7 +26,7 @@ h3-h6{
 hr{
 	margin: 5px;
 	padding: 5px;
-	border: 5px #313D4F;
+	border: 5px #A9C7DF55;
 	border-style: solid none none;
 }
 
